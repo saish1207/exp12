@@ -1,0 +1,16 @@
+function bounceoff() {
+  if(wall.x-bullet.x<wall.width/2+bullet.width/2){
+    bullet.velocityX = -10 ;
+}
+
+if(bullet.x-wall.x<bullet.width/2+wall.width/2){
+  bullet.velocityX = -10 ;
+}
+
+if(bullet.y-wall.y<bullet.height/2+wall.height/2){
+  bullet.velocityX = -10 ;
+}
+
+if(wall.y-bullet.y<wall.height/2+bullet.height/2){
+  bullet.velocityX = -10 ;
+}
